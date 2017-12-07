@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c97ec41-04d3-4f83-b426-8a9d31d4fffb" name="Default" comment="Lection 6">
+    <list default="true" id="7c97ec41-04d3-4f83-b426-8a9d31d4fffb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -144,11 +144,6 @@
             <path>
               <item name="Udemy_Thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udemy_Thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Udemy_Thread" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Udemy_Thread" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Udemy_Thread" type="b2602c69:ProjectViewProjectNode" />
