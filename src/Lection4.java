@@ -1,4 +1,4 @@
-class MyThead extends Thread{
+class MyThead4 extends Thread{
    public void   run(){
        for (int i = 0; i <1500 ; i++) {
            if (i%100==0) System.out.println();
@@ -20,7 +20,7 @@ class myTask implements Runnable{
 
 public class Lection4 {
     public static void main(String[] args) {
-        MyThead myThead=new MyThead();
+        MyThead4 myThead=new MyThead4();
         myThead.start();
 
         myTask myTask = new myTask();
