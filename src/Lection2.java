@@ -1,4 +1,4 @@
-class Task {
+class Task2 {
     public void doTask(){
         for (int i = 0; i <1500 ; i++) {
             if (i%100==0) System.out.println();
@@ -8,7 +8,7 @@ class Task {
 }
 public class Lection2 {
     public static void main(String[] args) {
-        Task t1 = new Task();
+        Task2 t1 = new Task2();
         t1.doTask();
 
         System.out.println();
