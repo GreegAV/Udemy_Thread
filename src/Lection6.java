@@ -34,10 +34,13 @@ public class Lection6 {
         String destFile2="d.txt";
 
         ExecutorService executor = Executors.newFixedThreadPool(5);
+        for (int i = 0; i <100 ; i++) {
+            String destFile3=destFile+String.valueOf(i);
+            executor.execute(new CopyTask(sourceFile, destFile3));
 
+        }
 
-        executor.execute(new CopyTask(sourceFile, destFile));
-        executor.execute(new CopyTask(sourceFile2, destFile2));
+//        executor.execute(new CopyTask(sourceFile2, destFile2));
 
     }
 }
