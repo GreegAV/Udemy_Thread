@@ -44,9 +44,7 @@ public class Lection5 {
 //        IOUtils.copyFile(sourceFile,destFile);
 //        IOUtils.copyFile(sourceFile2,destFile2);
 
-        Thread t1 = new Thread(new CopyTask(sourceFile, destFile));
-        Thread t2 = new Thread(new CopyTask(sourceFile2, destFile2));
-        t1.start();
-        t2.start();
+       new Thread(new CopyTask(sourceFile, destFile)).start();
+       new Thread(new CopyTask(sourceFile2, destFile2)).start();
     }
 }
