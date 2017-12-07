@@ -2,6 +2,8 @@
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 class CopyTask implements Runnable{
 
@@ -31,19 +33,11 @@ public class Lection6 {
         String destFile="c.txt";
         String destFile2="d.txt";
 
-//        FileInputStream fin = new FileInputStream(sourceFile);
-//        FileOutputStream fout = new FileOutputStream(destFile);
-//
-//        IOUtils.copy(fin,fout);
-//        System.out.println("Done");
-//
-//        fin.close();
-//        fout.close();
+        ExecutorService executor = Executors.newFixedThreadPool(5);
 
-//        IOUtils.copyFile(sourceFile,destFile);
-//        IOUtils.copyFile(sourceFile2,destFile2);
 
-        new Thread(new CopyTask(sourceFile, destFile)).start();
-        new Thread(new CopyTask(sourceFile2, destFile2)).start();
+        executor.execute(new CopyTask(sourceFile, destFile));
+        executor.execute(new CopyTask(sourceFile2, destFile2));
+
     }
 }
