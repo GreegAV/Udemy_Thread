@@ -23,7 +23,7 @@ public class Lection4 {
         MyThead myThead=new MyThead();
         myThead.start();
 
-        MyTask myTask = new MyTask();
+        myTask myTask = new myTask();
         Thread thread = new Thread(myTask);
         thread.start();
 
