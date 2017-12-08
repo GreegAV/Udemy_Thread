@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c97ec41-04d3-4f83-b426-8a9d31d4fffb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection10.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection11.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection12-.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Lection9.java" afterPath="$PROJECT_DIR$/src/Lection9.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -591,7 +587,8 @@
     <MESSAGE value="Lection 6" />
     <MESSAGE value="Lection 5-8 nailed" />
     <MESSAGE value="Lection 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lection 9" />
+    <MESSAGE value="Fin+source" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin+source" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
