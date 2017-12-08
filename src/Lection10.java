@@ -1,8 +1,8 @@
-class Sample {
-    private int x=10;
+class Sample10 {
+    private int x = 10;
 
-    public synchronized void incr(){
-        int y=getX();
+    public synchronized void incr() {
+        int y = getX();
         y++;
         try {
             Thread.sleep(10);
@@ -11,6 +11,26 @@ class Sample {
         }
         setX(y);
     }
+
+// public void incr() {
+
+//      // some not synchronized code
+
+//      // start of synchronized block
+//     synchronized {
+//         int y = getX();
+//         y++;
+//         try {
+//             Thread.sleep(10);
+//         } catch (InterruptedException e) {
+//             e.printStackTrace();
+//         }
+//         setX(y);
+//     }
+//     // end of synchronized block
+
+// }
+
 
     public int getX() {
         return x;
@@ -21,25 +41,26 @@ class Sample {
     }
 }
 
-class MyThread9 extends Thread {
+class MyThread10 extends Thread {
 
     Sample11 obj;
-    public MyThread9(Sample11 obj){
-        this.obj=obj;
+
+    public MyThread10(Sample11 obj) {
+        this.obj = obj;
     }
 
-    public void run(){
+    public void run() {
         obj.incr();
     }
 
 }
 
 
-public class Lection9 {
+public class Lection10 {
     public static void main(String[] args) {
         Sample11 obj = new Sample11();
-        MyThread11 t1= new MyThread11(obj);
-        MyThread11 t2= new MyThread11(obj);
+        MyThread11 t1 = new MyThread11(obj);
+        MyThread11 t2 = new MyThread11(obj);
 
         t1.start();
         t2.start();

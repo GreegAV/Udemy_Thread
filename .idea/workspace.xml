@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c97ec41-04d3-4f83-b426-8a9d31d4fffb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection9.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection10.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection11.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lection12-.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Lection9.java" afterPath="$PROJECT_DIR$/src/Lection9.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/" />
@@ -51,21 +54,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lection9.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lection9.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lection9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#286#287#0" expanded="true" />
                 <element signature="e#310#311#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lection11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lection11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lection10.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lection10.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lection12-.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lection12-.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="23" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,6 +177,10 @@
         <option value="$PROJECT_DIR$/src/Lection5/Lection5.java" />
         <option value="$PROJECT_DIR$/src/Lection6.java" />
         <option value="$PROJECT_DIR$/src/Lection9.java" />
+        <option value="$PROJECT_DIR$/src/Lection11.java" />
+        <option value="$PROJECT_DIR$/src/Lection10.java" />
+        <option value="$PROJECT_DIR$/src/Lection12.java" />
+        <option value="$PROJECT_DIR$/src/Lection12-.java" />
       </list>
     </option>
   </component>
@@ -213,6 +265,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lection9.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
+            <path>
+              <item name="Udemy_Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy_Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lection10.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Udemy_Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Udemy_Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lection11.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,6 +294,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Lection5" />
@@ -523,7 +590,8 @@
     <MESSAGE value="Lection 5" />
     <MESSAGE value="Lection 6" />
     <MESSAGE value="Lection 5-8 nailed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lection 5-8 nailed" />
+    <MESSAGE value="Lection 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lection 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,18 +740,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lection9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lection11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lection10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lection12-.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="23" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,15 +1,30 @@
-class Sample {
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
+
+class Sample11 {
     private int x=10;
 
-    public synchronized void incr(){
-        int y=getX();
-        y++;
+    ReadWriteLock rw_lock = new ReentrantReadWriteLock();
+
+    public void incr(){
+
+        Lock lock = rw_lock.writeLock();
+
+        lock.lock();
+
         try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+            int y = getX();
+            y++;
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            setX(y);
+        } finally {
+            lock.unlock();
         }
-        setX(y);
     }
 
     public int getX() {
@@ -21,10 +36,10 @@ class Sample {
     }
 }
 
-class MyThread9 extends Thread {
+class MyThread11 extends Thread {
 
     Sample11 obj;
-    public MyThread9(Sample11 obj){
+    public MyThread11(Sample11 obj){
         this.obj=obj;
     }
 
@@ -35,7 +50,7 @@ class MyThread9 extends Thread {
 }
 
 
-public class Lection9 {
+public class Lection11 {
     public static void main(String[] args) {
         Sample11 obj = new Sample11();
         MyThread11 t1= new MyThread11(obj);
